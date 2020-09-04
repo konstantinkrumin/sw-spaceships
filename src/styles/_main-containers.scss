@@ -1,0 +1,13 @@
+.amount-selector-container,
+.spaceships-selector-container,
+.starship-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin: 2rem;
+    border: 1px solid $accent-color;
+    border-radius: 25px;
+    background-color: $main-color;
+}

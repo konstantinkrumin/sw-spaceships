@@ -1,0 +1,22 @@
+.input-num-field,
+.dropdown {
+    color: $secondary-color;
+    background: $font-color;
+    font-family: $main-font;
+    margin: 10px;
+    letter-spacing: 2px;
+    border: 1px solid $font-color;
+    border-radius: 10px;
+    outline: none;
+}
+
+.input-num-field {
+    font-size: 1rem;
+    text-align: center;
+    padding: 6px 3px;
+    border: 1px solid $font-color;
+}
+
+.dropdown {
+    padding: 5px;
+}
