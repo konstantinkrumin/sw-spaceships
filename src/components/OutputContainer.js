@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react';
 
+import OutliersContainer from './output-components/OutliersContainer';
 import StarshipElement from './output-components/StarshipElement';
 
 import { values, updateValuesArr } from '../helpers/updateValuesArr';
@@ -69,9 +70,14 @@ function OutputContainer() {
   }
 
   if (isLatestLoaded) {
-    return <div className="output-container">{filteredElements}</div>;
+    return (
+      <div className="output-container">
+        <OutliersContainer outliers={outliers} />
+        <div>{filteredElements}</div>
+      </div>
+    );
   } else {
-    return <></>;
+    return <div>Loading...</div>;
   }
 }
 
