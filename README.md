@@ -1,6 +1,6 @@
 # sw-spaceships
 
- # See Live: [LINK](https://konstantinkrumin.github.io/sw-spaceships/)
+ ## See Live: [LINK](https://konstantinkrumin.github.io/sw-spaceships/)
 
 This app parses data from SWAPI related to Star Wars Spaceships and finds out min and max characteristics for the selected group of spaceships.
 
