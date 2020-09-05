@@ -9,3 +9,9 @@
         max-width: 200px;
     }
 }
+
+@media (max-width: 400px) {
+    .outliers-container {
+        font-size: 0.7rem;
+    }
+}

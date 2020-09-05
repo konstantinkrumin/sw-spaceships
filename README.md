@@ -6,6 +6,6 @@ Users can selected a number of spaceships for comparison as well as which spaces
 
 The app was built using Create-React-App and SCSS for styling.
 
-![Screenshot 1]("./src/images/screenapp1.JPG")
+![Screenshot 1]("https://i.imgur.com/5h5aLLC.jpg")
 
-![Screenshot 2]("./src/images/screenapp2.JPG")
+![Screenshot 2]("https://i.imgur.com/ohl1ce8.jpg")
