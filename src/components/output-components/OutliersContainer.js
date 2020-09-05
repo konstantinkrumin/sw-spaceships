@@ -13,7 +13,7 @@ const OutliersContainer = ({ outliers }) => {
 
   if (isLoaded) {
     return (
-      <div>
+      <div className="outliers-container">
         <OutliersElement
           title="MGLT"
           max={outliers.MGLT.max}

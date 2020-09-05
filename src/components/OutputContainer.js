@@ -72,8 +72,11 @@ function OutputContainer() {
   if (isLatestLoaded) {
     return (
       <div className="output-container">
-        <OutliersContainer outliers={outliers} />
-        <div>{filteredElements}</div>
+        <div className="outliers-center-wrapper">
+          <OutliersContainer outliers={outliers} />
+        </div>
+
+        <div className="output-elements-wrapper">{filteredElements}</div>
       </div>
     );
   } else {

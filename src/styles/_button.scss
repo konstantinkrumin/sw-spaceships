@@ -1,18 +1,23 @@
 .button {
-    color: $font-color;
-    font-family: $main-font;
-    cursor: pointer;
-    outline: none;
-    transition: color 250ms;
-    background-color: $secondary-color;
-    padding: 8px 15px;
-    margin: 5px;
-    border: 1px solid $font-color;
-    border-radius: 10px;
+  width: 120px;
+  color: $font-color;
+  font-family: $main-font;
+  cursor: pointer;
+  outline: none;
+  transition: color 250ms;
+  background-color: $secondary-color;
+  padding: 8px 15px;
+  margin: 5px;
+  border: 1px solid $font-color;
+  border-radius: 10px;
 
-    &:hover,
-    &:focus {
-        color: $accent-color;
-        border-color: $accent-color;
-    }
+  &:hover,
+  &:focus {
+    color: $accent-color;
+    border-color: $accent-color;
+  }
+}
+
+.center-button {
+  align-self: center;
 }

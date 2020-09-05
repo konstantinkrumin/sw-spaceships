@@ -1,13 +1,24 @@
 .amount-selector-container,
 .spaceships-selector-container,
 .starship-element {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-    margin: 2rem;
-    border: 1px solid $accent-color;
-    border-radius: 25px;
-    background-color: $main-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin: 2rem;
+  border: 1px solid $accent-color;
+  border-radius: 25px;
+  background-color: $main-color;
+}
+
+.outliers-container {
+  font-size: 0.8rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  padding: 1rem;
+  margin: 2rem;
+  border: 1px solid $accent-color;
+  border-radius: 25px;
+  background-color: $main-color;
 }

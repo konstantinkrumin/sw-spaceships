@@ -44,7 +44,7 @@ const SpaceshipsSelector = () => {
         </div>
         <form className="dropdown-form" onSubmit={handleSubmit}>
           <div className="dropdowns-container">{dropdowns}</div>
-          <Button />
+          <Button centerButton="center-button" />
         </form>
       </div>
     );
