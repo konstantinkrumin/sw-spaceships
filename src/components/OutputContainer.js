@@ -51,7 +51,6 @@ function OutputContainer() {
     if (spaceshipsCompare.includes(data[i].name)) {
       filteredElements.push(
         <StarshipElement
-          outliers={outliers}
           MGLT={data[i].MGLT}
           cargo_capacity={data[i].cargo_capacity}
           cost_in_credits={data[i].cost_in_credits}
