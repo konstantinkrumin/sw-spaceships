@@ -1,6 +1,7 @@
 import React from 'react';
 
 import ElementTextBlock from './ElementTextBlock';
+import ElementTextBlockCompare from './ElementTextBlockCompare';
 
 const StarshipElement = ({
   outliers,
@@ -25,28 +26,32 @@ const StarshipElement = ({
       <ElementTextBlock title="Starship Class" param={starship_class} />
       <ElementTextBlock title="Crew" param={crew} />
       <ElementTextBlock title="Passengers" param={passengers} />
-      <ElementTextBlock
+      <ElementTextBlockCompare
         title="Cost In Credits"
         param={cost_in_credits}
         outliers={outliers.cost_in_credits}
       />
-      <ElementTextBlock
+      <ElementTextBlockCompare
         title="Length"
         param={length}
         outliers={outliers.length}
       />
-      <ElementTextBlock
+      <ElementTextBlockCompare
         title="Cargo Capacity"
         param={cargo_capacity}
         outliers={outliers.cargo_capacity}
       />
-      <ElementTextBlock title="MGLT" param={MGLT} outliers={outliers.MGLT} />
-      <ElementTextBlock
+      <ElementTextBlockCompare
+        title="MGLT"
+        param={MGLT}
+        outliers={outliers.MGLT}
+      />
+      <ElementTextBlockCompare
         title="Max Atmospheric Speed"
         param={max_atmosphering_speed}
         outliers={outliers.max_atmosphering_speed}
       />
-      <ElementTextBlock
+      <ElementTextBlockCompare
         title="Hyperdrive Rating"
         param={hyperdrive_rating}
         outliers={outliers.hyperdrive_rating}

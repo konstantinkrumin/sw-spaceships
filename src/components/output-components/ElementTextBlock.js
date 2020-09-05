@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
-const ElementTextBlock = ({ title, param, outliers }) => {
+const ElementTextBlock = ({ title, param }) => {
   return (
     <div className="starship-element-text">
       <div className="starship-element-title">{title}</div>
