@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sw-spaceships/static/css/main.33ed462f.chunk.css",
+    "main.css": "/sw-spaceships/static/css/main.b977df79.chunk.css",
     "main.js": "/sw-spaceships/static/js/main.924043c3.chunk.js",
     "main.js.map": "/sw-spaceships/static/js/main.924043c3.chunk.js.map",
     "runtime-main.js": "/sw-spaceships/static/js/runtime-main.b4aa8f60.js",
@@ -8,16 +8,16 @@
     "static/js/2.be8deb94.chunk.js": "/sw-spaceships/static/js/2.be8deb94.chunk.js",
     "static/js/2.be8deb94.chunk.js.map": "/sw-spaceships/static/js/2.be8deb94.chunk.js.map",
     "index.html": "/sw-spaceships/index.html",
-    "precache-manifest.6d4f0f39e858579f0988e8b1c8295f21.js": "/sw-spaceships/precache-manifest.6d4f0f39e858579f0988e8b1c8295f21.js",
+    "precache-manifest.7b3dc31af2b67ba042a73315f823b8bb.js": "/sw-spaceships/precache-manifest.7b3dc31af2b67ba042a73315f823b8bb.js",
     "service-worker.js": "/sw-spaceships/service-worker.js",
-    "static/css/main.33ed462f.chunk.css.map": "/sw-spaceships/static/css/main.33ed462f.chunk.css.map",
+    "static/css/main.b977df79.chunk.css.map": "/sw-spaceships/static/css/main.b977df79.chunk.css.map",
     "static/js/2.be8deb94.chunk.js.LICENSE.txt": "/sw-spaceships/static/js/2.be8deb94.chunk.js.LICENSE.txt",
     "static/media/main.scss": "/sw-spaceships/static/media/space.91681c57.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b4aa8f60.js",
     "static/js/2.be8deb94.chunk.js",
-    "static/css/main.33ed462f.chunk.css",
+    "static/css/main.b977df79.chunk.css",
     "static/js/main.924043c3.chunk.js"
   ]
 }
