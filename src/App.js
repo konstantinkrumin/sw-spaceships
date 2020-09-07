@@ -29,22 +29,30 @@ export default function App() {
     }
   }, [loading]);
 
-  return (
-    <Context.Provider
-      value={{
-        data,
-        nameList,
-        numSpaceshipsTotal,
-        numSpaceshipsShow,
-        setNumSpaceshipsShow,
-        spaceshipsCompare,
-        setSpaceshipsCompare,
-      }}
-    >
-      <div className="main-container">
-        <SetupContainer />
-        <OutputContainer />
+  if (loading === false) {
+    return (
+      <Context.Provider
+        value={{
+          data,
+          nameList,
+          numSpaceshipsTotal,
+          numSpaceshipsShow,
+          setNumSpaceshipsShow,
+          spaceshipsCompare,
+          setSpaceshipsCompare,
+        }}
+      >
+        <div className="main-container">
+          <SetupContainer />
+          <OutputContainer />
+        </div>
+      </Context.Provider>
+    );
+  } else {
+    return (
+      <div className="loading-message-container">
+        <div className="loading-message-text">LOADING ...</div>
       </div>
-    </Context.Provider>
-  );
+    );
+  }
 }
